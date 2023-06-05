@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DEPLOY.HttpExemplo01": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7232"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32518,
+      "useSSL": false
+    }
+  }
+}
